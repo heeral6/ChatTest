@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heeralthakur.tabstest.HomeFragment"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="377dp"
+        android:layout_marginTop="110dp"
+        android:id="@+id/lvChats"
+        android:layout_weight="0.32" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <EditText
+            android:hint="Enter your text here"
+            android:layout_width="267dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_weight="0.91"
+            android:focusable="false"
+            android:maxLines="1"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:text="Send"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+</LinearLayout>
